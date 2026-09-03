@@ -99,10 +99,9 @@ h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
 
 /* News list */
 ul.news { list-style: none; padding: 0; }
-ul.news li { margin: 0.4rem 0; }
+ul.news li { margin: 0.4rem 0; display: flex; gap: 0.5rem; }
 ul.news .date {
-  display: inline-block;
-  min-width: 6.5rem;
+  flex: 0 0 6.5rem;
   color: var(--muted);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.85rem;
@@ -136,3 +135,8 @@ footer.site-footer {
   .intro .photo { flex-basis: auto; width: 180px; }
   nav.site-nav a { margin-left: 0; margin-right: 1rem; }
 }
+
+/* Contact block under the photo */
+.intro .photo ul.contact { margin-top: 0.75rem; }
+.intro .photo ul.contact li { margin: 0.3rem 0; line-height: 1.4; }
+.intro .photo ul.contact li a { display: inline-block; }
