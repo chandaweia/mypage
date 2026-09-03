@@ -19,6 +19,8 @@ A static site (plain HTML + CSS, no build step) hosted with GitHub Pages.
 3. Under **Build and deployment**, set Source to **Deploy from a branch**,
    choose `main` and the `/ (root)` folder, then save.
 4. The site appears at `https://chandaweia.github.io/mypage/` within a minute or two.
+5. The `CNAME` file sets the custom domain `cuidi.net`; DNS at the registrar must point
+   the apex to GitHub Pages A/AAAA records and `www` to `chandaweia.github.io`.
 
 To serve at `https://chandaweia.github.io/` instead, rename the repository to
 `chandaweia.github.io`. A custom domain can be added on the same Pages settings page.
