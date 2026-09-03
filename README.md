@@ -11,6 +11,7 @@ A static site (plain HTML + CSS, no build step) hosted with GitHub Pages.
 - `images/` — profile photo (`profile.jpg`)
 - `assets/` — CV (`cv.pdf`) and other files
 - `.nojekyll` — tells GitHub Pages to serve the files as-is
+- `robots.txt`, `sitemap.xml` — search engine hints; submit the sitemap in Google Search Console
 
 ## Deploying with GitHub Pages
 
