@@ -99,7 +99,8 @@ h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
 
 /* News list */
 ul.news { list-style: none; padding: 0; }
-ul.news li { margin: 0.4rem 0; display: flex; gap: 0.5rem; }
+ul.news li { margin: 0.4rem 0; display: flex; gap: 0.5rem; align-items: baseline; }
+ul.news .text { flex: 1 1 auto; }
 ul.news .date {
   flex: 0 0 6.5rem;
   color: var(--muted);
