@@ -1,6 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="520" viewBox="0 0 440 520">
-  <rect width="440" height="520" fill="#e6e9ee"/>
-  <circle cx="220" cy="190" r="90" fill="#c5cbd6"/>
-  <path d="M60 470c0-100 72-160 160-160s160 60 160 160z" fill="#c5cbd6"/>
-  <text x="220" y="505" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7a8291">Replace with images/profile.jpg</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440">
+  <rect width="440" height="440" fill="#1a5276"/>
+  <text x="220" y="262" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="150" fill="#ffffff">CW</text>
 </svg>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · Cuidi Wei</title>
+  <meta name="description" content="Cuidi Wei — Network Research Engineer at ByteDance; Ph.D. in Computer Science from George Washington University. Programmable dataplanes, network security, high-speed traffic analysis.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+  <header class="site-header">
+    <p class="site-name"><a href="index.html">Cuidi Wei</a></p>
+    <nav class="site-nav">
+      <a href="index.html">Home</a><a href="research.html" class="active">Research</a><a href="publications.html">Publications</a><a href="assets/cv.pdf">CV</a>
+    </nav>
+  </header>
+
+  <h1>Research</h1>
+  <p>
+    My work sits at the intersection of networked systems, security, and programmable
+    hardware. The projects below are the main threads of my Ph.D. and industry research;
+    see the <a href="publications.html">publications page</a> for the papers that came out of them.
+  </p>
+
+  <section>
+    <h2>Programmable Dataplane Security for Low-Volume and Slow Attacks</h2>
+    <p class="pub-venue">2022–2026 &middot; IEEE ICNP 2026, IEEE ICNP 2024, IEEE Cloud Summit 2024, ACM SIGCOMM N2Women 2023</p>
+    <ul>
+      <li>Analyzed traffic patterns of diverse network attacks, including Slowloris, SSH/FTP brute-force, DDoS, and network scanning.</li>
+      <li>Proposed, designed, and validated an efficient approach for detecting attacks in Tbps-scale network traffic.</li>
+      <li>Designed a hybrid programmable-switch and SmartNIC architecture for Tbps-scale monitoring, suspicious-flow identification, and mitigation of low-volume attacks.</li>
+      <li>Developed memory-efficient in-switch flow tracking and filtering that reduces traffic forwarded to downstream security processors while preserving line-rate performance and low false-positive rates.</li>
+      <li>Built multi-stage detection pipelines combining programmable dataplanes, SmartNIC-based inspection, and machine learning for scalable anomalous-traffic detection.</li>
+      <li>Evaluated the system on real-world traces and programmable hardware testbeds.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>High-Performance Packet Processing for 5G Infrastructure</h2>
+    <p class="pub-venue">Nokia Bell Labs and GWU &middot; IEEE INFOCOM Workshops 2023, ACM SIGCOMM 5G-MeMU 2022</p>
+    <ul>
+      <li>Developed and optimized high-performance packet processing pipelines using DPDK (kernel bypass), improving throughput and reducing communication overhead in the 5G RAN Central Unit.</li>
+      <li>Profiled end-to-end dataplane execution with <code>perf</code> to identify CPU, cache, and I/O bottlenecks, enabling targeted optimizations for low-latency, high-throughput packet processing.</li>
+      <li>Performed detailed latency and throughput analysis across the packet processing pipeline, driving system-level optimizations for scalable, real-time traffic handling.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>SmartNIC-Based Flow Load Balancer</h2>
+    <p class="pub-venue">IEEE NFV-SDN 2021</p>
+    <ul>
+      <li>Designed and implemented a flow-aware load balancer on SmartNICs using weighted scheduling to improve flow-distribution consistency and maximize throughput in high-speed dataplanes.</li>
+      <li>Developed traffic generators with Zipf-distributed workloads to simulate bursty and skewed traffic under realistic, non-uniform conditions.</li>
+      <li>Evaluated latency, tail latency, and fairness with wrk2 and pktgen, comparing weighted and randomized scheduling strategies under high load.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="plain">
+      <li><strong>Languages:</strong> Python, Go, C/C++, P4, Shell, SQL</li>
+      <li><strong>Networking systems:</strong> Linux, DPDK, SmartNICs, programmable switches (Tofino)</li>
+      <li><strong>Protocols:</strong> TCP/IP, IPv4/IPv6, DNS, UDP, HTTP/HTTPS, BGP, OSPF</li>
+      <li><strong>Machine learning:</strong> Random Forest, XGBoost, decision trees, model evaluation, imbalanced-data analysis, scikit-learn</li>
+      <li><strong>Data engineering:</strong> MySQL, MongoDB, Redis, Kafka, large-scale network trace processing</li>
+      <li><strong>Tools:</strong> tcpdump, Wireshark, perf, GDB, pktgen, wrk2, Git, Docker</li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    &copy; 2026 Cuidi Wei. Last updated September 2026.
+  </footer>
+
+</div>
+</body>
+</html>

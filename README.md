@@ -6,9 +6,9 @@ A static site (plain HTML + CSS, no build step) hosted with GitHub Pages.
 
 - `index.html` — home: photo, bio, contact links, news, research summary
 - `publications.html` — publications grouped by type
-- `teaching.html` — courses taught
+- `research.html` — research projects and skills
 - `css/style.css` — the only stylesheet
-- `images/` — profile photo (`profile.jpg`; `profile.svg` is a placeholder)
+- `images/` — profile photo (`profile.svg` is a placeholder; replace with `profile.jpg` and update the `<img>` in `index.html`)
 - `assets/` — CV (`cv.pdf`) and other files
 - `.nojekyll` — tells GitHub Pages to serve the files as-is
 
