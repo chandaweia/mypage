@@ -141,3 +141,23 @@ footer.site-footer {
 .intro .photo ul.contact { margin-top: 0.75rem; }
 .intro .photo ul.contact li { margin: 0.3rem 0; line-height: 1.4; }
 .intro .photo ul.contact li a { display: inline-block; }
+
+/* Research interest keywords */
+.keywords { margin-top: 1.1rem; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.keywords .label {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+.keywords ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.keywords li {
+  font-size: 0.82rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: #f6f7f9;
+  color: var(--text);
+}
